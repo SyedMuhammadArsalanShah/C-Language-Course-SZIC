@@ -10,7 +10,6 @@ int main()
     {
     case 'a':
     case 'A':
-
     {
         printf("its a vowels %c", vowels);
         break;
@@ -21,7 +20,6 @@ int main()
         printf("its a vowels %c", vowels);
         break;
     }
-
     case 'i':
     case 'I':
     {
@@ -51,11 +49,16 @@ int main()
 
     switch (vowels)
     {
-    case 'a': case 'A':
-    case 'e': case 'E':
-    case 'i': case 'I':
-    case 'o': case 'O':
-    case 'u': case 'U':
+    case 'a':
+    case 'A':
+    case 'e':
+    case 'E':
+    case 'i':
+    case 'I':
+    case 'o':
+    case 'O':
+    case 'u':
+    case 'U':
     {
         printf("its a vowels %c", vowels);
         break;
